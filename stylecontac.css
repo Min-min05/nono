@@ -1,0 +1,36 @@
+
+.cad-limit {
+    height: 500px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffe3e2;
+    width: 100%;
+    display: flex;
+}
+header img {
+    width: 100%;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 50px;
+    flex-direction: row;
+    font-family: amatic SC;
+    font-size: 120%;
+    font-weight: bold;
+}
+header ul li {
+    margin: 15px;
+}
+body {
+    background-image: url(imagenes/fondopag.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
